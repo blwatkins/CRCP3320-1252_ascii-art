@@ -3,3 +3,5 @@
 ASCII Art project for CRCP 3320; Spring 2025 term
 
 Placeholder: Assignemnt description.
+
+## Contributors
