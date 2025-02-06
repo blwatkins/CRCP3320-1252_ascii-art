@@ -5,3 +5,4 @@ ASCII Art project for CRCP 3320; Spring 2025 term
 Placeholder: Assignemnt description.
 
 ## Contributors
+:two_hearts: [brittni watkins](https://blwatkins.github.io/)
