@@ -1,6 +1,7 @@
 #!/bin/bash
 
-brittni_art() {
+# added by brittni watkins
+clover_art() {
     echo "        ,,,                      ,,,"
     echo "       {{{}}    ,,,             {{{}}    ,,,"
     echo "    ,,, ~Y~    {{{}},,,      ,,, ~Y~    {{{}},,,"
@@ -28,10 +29,12 @@ fi
 
 echo "ASCII Art: $artName"
 
-if [ "$artName" == "brittni" ]
+if [ "$artName" == "clover" ]
 then
-    brittni_art
+    clover_art
 else
     echo "FAILURE: No such art name."
+    echo "Valid art names:"
+    echo "    clover"
     exit 1
 fi
