@@ -6,5 +6,7 @@ In the ascii-art.sh script, add the ASCII art design of your choosing and the na
 
 Add your art name to the list of valid names at the bottom of the script.
 
+[Markdown Syntax Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 ## Contributors
 :two_hearts: [brittni watkins](https://blwatkins.github.io/)
