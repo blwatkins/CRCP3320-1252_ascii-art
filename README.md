@@ -7,4 +7,7 @@ In the ascii-art.sh script, add the ASCII art design of your choosing and the na
 Add your art name to the list of valid names at the bottom of the script.
 
 ## Contributors
+
+- Anika Krieger [anikalearnstocode](https://github.com/anikalearnstocode)
+
 :two_hearts: [brittni watkins](https://blwatkins.github.io/)
