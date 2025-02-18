@@ -10,6 +10,6 @@ Add your art name to the list of valid names at the bottom of the script.
 
 ## Contributors
 
-- Anika Krieger [anikalearnstocode](https://github.com/anikalearnstocode)
+- Anika Krieger
 
 :two_hearts: [brittni watkins](https://blwatkins.github.io/)
