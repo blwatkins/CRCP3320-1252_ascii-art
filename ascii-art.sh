@@ -50,6 +50,7 @@ echo "ASCII Art: $artName"
 if [ "$artName" == "clover" ]
 then
     clover_art
+    
 elif [ "$artName" == "aardvark" ]; then
     aardvark_art
 

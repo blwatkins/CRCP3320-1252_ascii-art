@@ -8,3 +8,5 @@ Add your art name to the list of valid names at the bottom of the script.
 
 ## Contributors
 :two_hearts: [brittni watkins](https://blwatkins.github.io/)
+
+: [Allison Hart](https://github.com/allisonhart18)
