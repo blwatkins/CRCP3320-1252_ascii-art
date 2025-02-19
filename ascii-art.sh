@@ -32,9 +32,13 @@ echo "ASCII Art: $artName"
 if [ "$artName" == "clover" ]
 then
     clover_art
+elif [ "$artName" == "squiggle" ]
+then
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
     echo "    clover"
+    echo "    squiggle"
     exit 1
 fi
