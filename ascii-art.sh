@@ -50,15 +50,25 @@ echo "ASCII Art: $artName"
 if [ "$artName" == "clover" ]
 then
     clover_art
+<<<<<<< HEAD
     
 elif [ "$artName" == "aardvark" ]; then
     aardvark_art
 
+=======
+elif [ "$artName" == "squiggle" ]
+then
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+>>>>>>> 1af8cc1868677d8104ac84d0d35feff5da022b77
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
     echo "    clover"
+<<<<<<< HEAD
     echo "    aardvark"
+=======
+    echo "    squiggle"
+>>>>>>> 1af8cc1868677d8104ac84d0d35feff5da022b77
     exit 1
 fi
 
