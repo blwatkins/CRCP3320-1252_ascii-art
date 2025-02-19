@@ -14,6 +14,24 @@ clover_art() {
     echo "jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 }
 
+# added by Allison Hart
+aardvark_art() {
+    
+echo "       _.---._    /\\"
+echo "     /'       \"--`\\//"
+echo "   /              o \\          -----"
+echo " / /\\  )______   \\__ \\        ( help! )"
+echo " /  / /\\ \\    \\ \\  \\ \\       /`-----"
+echo "   / /  \\ \\  | |\\ \\  \\7--- ooo ooo ooo ooo ooo ooo"
+echo "       wWWWw               wWWWw"
+echo " vVVVv (___) wWWWw         (___)  vVVVv"
+echo " (___)  ~Y~  (___)  vVVVv   ~Y~   (___)"
+echo "  ~Y~   \|    ~Y~   (___)    |/    ~Y~"
+echo "  \|   \ |/   \| /  \~Y~/   \|    \ |/"
+echo " \\|// \\|// \\|/// \\|//  \\|// \\\|///"
+}
+
+
 while getopts n: flag
 do
     case "${flag}" in
@@ -32,13 +50,26 @@ echo "ASCII Art: $artName"
 if [ "$artName" == "clover" ]
 then
     clover_art
+<<<<<<< HEAD
+    
+elif [ "$artName" == "aardvark" ]; then
+    aardvark_art
+
+=======
 elif [ "$artName" == "squiggle" ]
 then
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+>>>>>>> 1af8cc1868677d8104ac84d0d35feff5da022b77
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
     echo "    clover"
+<<<<<<< HEAD
+    echo "    aardvark"
+=======
     echo "    squiggle"
+>>>>>>> 1af8cc1868677d8104ac84d0d35feff5da022b77
     exit 1
 fi
+
+
