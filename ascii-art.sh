@@ -14,6 +14,7 @@ clover_art() {
     echo "jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 }
 
+# Joey Luu's Submission :D
 welcome_to_the_show() {
     echo "      W E L C O M E   "
     echo "             T O    "
@@ -60,5 +61,6 @@ else
     echo "Valid art names:"
     echo "    clover"
     echo "    squiggle"
+    echo "    * show"
     exit 1
 fi
