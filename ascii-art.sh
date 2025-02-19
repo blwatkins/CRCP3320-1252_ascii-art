@@ -52,7 +52,7 @@ then
 elif [ "$artName" == "squiggle" ]
 then
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-elif [ "$artName" == "squiggle" ]
+elif [ "$artName" == "show" ]
 then
     welcome_to_the_show
 else
