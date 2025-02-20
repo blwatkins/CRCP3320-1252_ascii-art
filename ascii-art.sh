@@ -117,13 +117,6 @@ then
 elif [ "$artName" == "squirtle" ]   #added by jaisannotjaxsxn
 then
     squirtle_art
-else
-    echo "FAILURE: No such art name."
-    echo "Valid art names:"
-    echo "    clover"
-    echo "    squiggle"
-    echo "    squirtle"
-=======
 elif [ "$artName" == "show" ]
 then
     welcome_to_the_show
@@ -135,6 +128,7 @@ else
     echo "Valid art names:"
     echo "    * clover"
     echo "    * squiggle"
+    echo "    * squirtle"
     echo "    * show"
     echo "    * cat"
     exit 1
