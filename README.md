@@ -15,3 +15,5 @@ Add your art name to the list of valid names at the bottom of the script.
 
 :two_hearts: [brittni watkins](https://blwatkins.github.io/)
 :suspect: [joey luu](https://github.com/JavaGamer)
+:cat: [chris zhu](http://github.com/chriszq)
+:star2: [simonelefavour](http://github.com/simonelefavour)
