@@ -32,6 +32,30 @@ welcome_to_the_show() {
     echo " | |     !        ~              ~       | |"
 }
 
+# Simone LeFavour's Submission 
+cat_art() {
+    echo "             *     ,MMM8&&&.            *"
+    echo "                  MMMM88&&&&&    ."
+    echo "     *           MMM88&&&&&&&&"
+    echo "                 MMM88&&&&&&&&"
+    echo "                 'MMM88&&&&&&'"
+    echo "                   'MMM8&&&'      *"
+    echo "          |\___/|"
+    echo "          )     (             .              '"
+    echo "         =\     /="
+    echo "           )===(       *"
+    echo "          /     \\"
+    echo "          |     |"
+    echo "         /       \\"
+    echo "         \\       /"
+    echo "  _/\_/\_/\__  _/_/\_/\_/\_/\_/\_/\_/\_/\_/\_"
+    echo "  |  |  |  |( (  |  |  |  |  |  |  |  |  |  |"
+    echo "  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |"
+    echo "  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |"
+    echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
+}
+
+
 while getopts n: flag
 do
     case "${flag}" in
@@ -56,11 +80,15 @@ then
 elif [ "$artName" == "show" ]
 then
     welcome_to_the_show
+elif [ "$artName" == "cat" ]
+then
+    cat_art
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
     echo "    * clover"
     echo "    * squiggle"
     echo "    * show"
+    echo "    * cat"
     exit 1
 fi
