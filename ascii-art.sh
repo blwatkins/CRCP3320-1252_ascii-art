@@ -50,6 +50,24 @@ squirtle_art() {
     echo "                7____,,..--'      /          |"
     echo "                                  \`---.__,--.'"
 }
+=======
+# Joey Luu's Submission :D
+welcome_to_the_show() {
+    echo "      W E L C O M E   "
+    echo "             T O    "
+    echo "                 T H E     "
+    echo "                     S H O W     "
+    echo "        \`        *         *         \`      "
+    echo "  / __       __       __       __     __ \  "
+    echo "                                            "
+    echo "      (●ˇ∀ˇ●)      (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧            "
+    echo "      ~~~~~~~      --------                 "
+    echo "          (✪ ω ✪)              (;´༎ຶД༎ຶ\`)     "
+    echo "____________________________________________"
+    echo " | |    o        \`     --        .       | |"
+    echo " | | '      @        ()             *    | |"
+    echo " | |     !        ~              ~       | |"
+}
 
 while getopts n: flag
 do
@@ -81,5 +99,15 @@ else
     echo "    clover"
     echo "    squiggle"
     echo "    squirtle"
+=======
+elif [ "$artName" == "show" ]
+then
+    welcome_to_the_show
+else
+    echo "FAILURE: No such art name."
+    echo "Valid art names:"
+    echo "    * clover"
+    echo "    * squiggle"
+    echo "    * show"
     exit 1
 fi
