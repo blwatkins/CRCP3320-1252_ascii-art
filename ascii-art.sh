@@ -59,8 +59,8 @@ then
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
-    echo "    clover"
-    echo "    squiggle"
+    echo "    * clover"
+    echo "    * squiggle"
     echo "    * show"
     exit 1
 fi
