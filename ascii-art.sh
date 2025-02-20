@@ -32,6 +32,32 @@ welcome_to_the_show() {
     echo " | |     !        ~              ~       | |"
 }
 
+# Max's submission
+batman() {
+    echo "          .  ."
+    echo "          |\_|\ "
+    echo "          | a_a\ "
+    echo "          | | \"]"
+    echo "      ____| '-\___"
+    echo "     /.----.___.-'\ "
+    echo "    //        _    \ "
+    echo "   //   .-. (~v~) /|"
+    echo "  |'|  /\:  .--  / \ "
+    echo " // |-/  \_/____/\/~|"
+    echo "|/  \ |  []_|_|_] \ |"
+    echo "| \  | \ |___   _\ ]_}"
+    echo "| |  '-' /   '.'  |"
+    echo "| |     /    /|:  | "
+    echo "| |     |   / |:  /\ "
+    echo "| |     /  /  |  /  \ "
+    echo "| |    |  /  /  |    \ "
+    echo "\ |    |/\/  |/|/\    \ "
+    echo " \|\ |\|  |  | / /\/\__\ "
+    echo "  \ \| | /   | |__"
+    echo "       / |   |____)"
+    echo "       |_/"
+}
+
 while getopts n: flag
 do
     case "${flag}" in
