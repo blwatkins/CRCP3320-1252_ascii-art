@@ -55,6 +55,25 @@ cat_art() {
     echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
 }
 
+#Anika Krieger Submission
+cactus_art() {
+echo "             __                           "
+echo "            /| \                                          "
+echo "            || |                          "
+echo "            || |   _                          "
+echo "            || |  | |                     "
+echo "            || '--' |                     "
+echo "      __    || .----'                     "
+echo "     || |   || |                          "
+echo "     |  '---'| |                          "
+echo "     '------.| |                                  _____       "
+echo "     ((_))  || |                                 / /|\ \      "
+echo "     (o o)  || |     ( ))(( )                    | | | |          "
+echo "  ____\_/___||_|_____((__^_))____________________\_\|/_/__    "
+echo "                                  "
+echo "                                  "
+}
+
 
 while getopts n: flag
 do
@@ -83,6 +102,10 @@ then
 elif [ "$artName" == "cat" ]
 then
     cat_art
+elif [ "$artName" == "cactus" ]
+then
+    cactus_art
+
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
@@ -90,5 +113,6 @@ else
     echo "    * squiggle"
     echo "    * show"
     echo "    * cat"
+    echo "    * cactus"
     exit 1
 fi
