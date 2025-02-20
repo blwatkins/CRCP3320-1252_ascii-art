@@ -11,6 +11,7 @@ Add your art name to the list of valid names at the bottom of the script.
 ## Contributors
 
 - Anika Krieger [anikalearnstocode](https://github.com/anikalearnstocode)
+- Jaisan Avery [jaisannotjaxsxn](https://github.com/JaisanAvery)
 
 :two_hearts: [brittni watkins](https://blwatkins.github.io/)
 :suspect: [joey luu](https://github.com/JavaGamer)
