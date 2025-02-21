@@ -55,6 +55,20 @@ cat_art() {
     echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
 }
 
+# Chris Zhu's Submission
+my_cat_art() {
+    echo "        /\_/\ "
+    echo "       ( o.o )"
+    echo "        > ^ < "
+    echo "      /  ---  \\"
+    echo "     | |   | |"
+    echo "     | |   | |"
+    echo "      \_____/ "
+    echo "       /   \\"
+    echo "      /     \\"
+    echo "     (_______)"
+    echo "ASCII Cat Art!"
+}
 
 while getopts n: flag
 do
@@ -83,6 +97,9 @@ then
 elif [ "$artName" == "cat" ]
 then
     cat_art
+elif [ "$artName" == "mycat" ]
+then
+    my_cat_art
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
@@ -90,5 +107,6 @@ else
     echo "    * squiggle"
     echo "    * show"
     echo "    * cat"
+    echo "    * mycat"
     exit 1
 fi
