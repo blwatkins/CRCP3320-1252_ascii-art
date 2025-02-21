@@ -14,6 +14,7 @@ clover_art() {
     echo "jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 }
 
+
 # added by Allison Hart
 aardvark_art() {
     
@@ -29,6 +30,48 @@ echo " (___)  ~Y~  (___)  vVVVv   ~Y~   (___)"
 echo "  ~Y~   \|    ~Y~   (___)    |/    ~Y~"
 echo "  \|   \ |/   \| /  \~Y~/   \|    \ |/"
 echo " \\|// \\|// \\|/// \\|//  \\|// \\\|///"
+}
+
+# Joey Luu's Submission :D
+welcome_to_the_show() {
+    echo "      W E L C O M E   "
+    echo "             T O    "
+    echo "                 T H E     "
+    echo "                     S H O W     "
+    echo "        \`        *         *         \`      "
+    echo "  / __       __       __       __     __ \  "
+    echo "                                            "
+    echo "      (●ˇ∀ˇ●)      (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧            "
+    echo "      ~~~~~~~      --------                 "
+    echo "          (✪ ω ✪)              (;´༎ຶД༎ຶ\`)     "
+    echo "____________________________________________"
+    echo " | |    o        \`     --        .       | |"
+    echo " | | '      @        ()             *    | |"
+    echo " | |     !        ~              ~       | |"
+}
+
+# Simone LeFavour's Submission 
+cat_art() {
+    echo "             *     ,MMM8&&&.            *"
+    echo "                  MMMM88&&&&&    ."
+    echo "     *           MMM88&&&&&&&&"
+    echo "                 MMM88&&&&&&&&"
+    echo "                 'MMM88&&&&&&'"
+    echo "                   'MMM8&&&'      *"
+    echo "          |\___/|"
+    echo "          )     (             .              '"
+    echo "         =\     /="
+    echo "           )===(       *"
+    echo "          /     \\"
+    echo "          |     |"
+    echo "         /       \\"
+    echo "         \\       /"
+    echo "  _/\_/\_/\__  _/_/\_/\_/\_/\_/\_/\_/\_/\_/\_"
+    echo "  |  |  |  |( (  |  |  |  |  |  |  |  |  |  |"
+    echo "  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |"
+    echo "  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |"
+    echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
+
 }
 
 
@@ -56,13 +99,35 @@ then
 elif [ "$artName" == "squiggle" ]
 then
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+   
+
 
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
     echo "    clover"
-    
     echo "    squiggle"
+
+
+elif [ "$artName" == "show" ]
+then
+    welcome_to_the_show
+elif [ "$artName" == "cat" ]
+then
+    cat_art
+    
+    elif [ "$artName" == "aardvark" ]
+    then
+    aardvark_art
+    
+else
+    echo "FAILURE: No such art name."
+    echo "Valid art names:"
+    echo "    * clover"
+    echo "    * squiggle"
+    echo "    * show"
+    echo "    * cat"
+    echo "    *aardvark"
 
     exit 1
 fi
