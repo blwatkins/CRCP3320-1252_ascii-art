@@ -50,7 +50,7 @@ squirtle_art() {
     echo "                7____,,..--'      /          |"
     echo "                                  \`---.__,--.'"
 }
-=======
+
 # Joey Luu's Submission :D
 welcome_to_the_show() {
     echo "      W E L C O M E   "
