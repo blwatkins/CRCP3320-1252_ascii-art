@@ -82,11 +82,15 @@ then
 elif [ "$artName" == "show" ]
 then
     welcome_to_the_show
+elif [ "$artName" == "batman" ]
+then
+    batman
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
     echo "    * clover"
     echo "    * squiggle"
     echo "    * show"
+    echo "    * batman"
     exit 1
 fi
