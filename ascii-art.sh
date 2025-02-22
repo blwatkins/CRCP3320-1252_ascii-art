@@ -31,7 +31,7 @@ echo " (___)  ~Y~  (___)  vVVVv   ~Y~   (___)"
 echo "  ~Y~   \|    ~Y~   (___)    |/    ~Y~"
 echo "  \|   \ |/   \| /  \~Y~/   \|    \ |/"
 echo " \\|// \\|// \\|/// \\|//  \\|// \\\|///"
-=======
+
 # added by jaisannotjaxsxn
 squirtle_art() {
     echo "             _,........__"
@@ -145,38 +145,24 @@ echo "ASCII Art: $artName"
 if [ "$artName" == "clover" ]
 then
     clover_art
-
-    
-
 elif [ "$artName" == "squiggle" ]
 then
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-
-
-
-
 elif [ "$artName" == "squirtle" ]   #added by jaisannotjaxsxn
 then
     squirtle_art
-
 elif [ "$artName" == "show" ]
 then
     welcome_to_the_show
 elif [ "$artName" == "cat" ]
 then
-    cat_art
-
-    
-    elif [ "$artName" == "aardvark" ]
-    then
+    cat_art 
+elif [ "$artName" == "aardvark" ]
+then
     aardvark_art
-    
-
 elif [ "$artName" == "mycat" ]
 then
     my_cat_art
-
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
@@ -185,12 +171,7 @@ else
     echo "    * squirtle"
     echo "    * show"
     echo "    * cat"
-
-    echo "    *aardvark"
-
+    echo "    * aardvark"
     echo "    * mycat"
-
     exit 1
 fi
-
-
