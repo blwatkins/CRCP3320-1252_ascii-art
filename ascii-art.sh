@@ -108,6 +108,25 @@ cat_art() {
     echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
 }
 
+#Anika Krieger Submission
+cactus_art() {
+echo "             __                           "
+echo "            /| \                                          "
+echo "            || |                          "
+echo "            || |   _                          "
+echo "            || |  | |                     "
+echo "            || '--' |                     "
+echo "      __    || .----'                     "
+echo "     || |   || |                          "
+echo "     |  '---'| |                          "
+echo "     '------.| |                                  _____       "
+echo "     ((_))  || |                                 / /|\ \      "
+echo "     (o o)  || |     ( ))(( )                    | | | |          "
+echo "  ____\_/___||_|_____((__^_))____________________\_\|/_/__    "
+echo "                                  "
+echo "                                  "
+}
+
 # Chris Zhu's Submission
 my_cat_art() {
     echo "        /\_/\ "
@@ -152,6 +171,10 @@ then
     welcome_to_the_show
 elif [ "$artName" == "cat" ]
 then
+    cat_art
+elif [ "$artName" == "cactus" ]
+then
+    cactus_art
     cat_art 
 elif [ "$artName" == "aardvark" ]
 then
@@ -167,6 +190,7 @@ else
     echo "    * squirtle"
     echo "    * show"
     echo "    * cat"
+    echo "    * cactus"
     echo "    * aardvark"
     echo "    * mycat"
     exit 1
