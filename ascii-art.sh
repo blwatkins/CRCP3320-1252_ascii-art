@@ -110,21 +110,21 @@ cat_art() {
 
 #Anika Krieger Submission
 cactus_art() {
-echo "             __                           "
-echo "            /| \                                          "
-echo "            || |                          "
-echo "            || |   _                          "
-echo "            || |  | |                     "
-echo "            || '--' |                     "
-echo "      __    || .----'                     "
-echo "     || |   || |                          "
-echo "     |  '---'| |                          "
-echo "     '------.| |                                  _____       "
-echo "     ((_))  || |                                 / /|\ \      "
-echo "     (o o)  || |     ( ))(( )                    | | | |          "
-echo "  ____\_/___||_|_____((__^_))____________________\_\|/_/__    "
-echo "                                  "
-echo "                                  "
+    echo "             __                           "
+    echo "            /| \                                          "
+    echo "            || |                          "
+    echo "            || |   _                          "
+    echo "            || |  | |                     "
+    echo "            || '--' |                     "
+    echo "      __    || .----'                     "
+    echo "     || |   || |                          "
+    echo "     |  '---'| |                          "
+    echo "     '------.| |                                  _____       "
+    echo "     ((_))  || |                                 / /|\ \      "
+    echo "     (o o)  || |     ( ))(( )                    | | | |          "
+    echo "  ____\_/___||_|_____((__^_))____________________\_\|/_/__    "
+    echo "                                  "
+    echo "                                  "
 }
 
 # Chris Zhu's Submission
@@ -175,7 +175,6 @@ then
 elif [ "$artName" == "cactus" ]
 then
     cactus_art
-    cat_art 
 elif [ "$artName" == "aardvark" ]
 then
     aardvark_art
