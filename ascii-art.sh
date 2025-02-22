@@ -14,6 +14,24 @@ clover_art() {
     echo "jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 }
 
+
+
+# added by Allison Hart
+aardvark_art() {
+    
+echo "       _.---._    /\\"
+echo "     /'       \"--`\\//"
+echo "   /              o \\          -----"
+echo " / /\\  )______    \\__ \\        ( help! )"
+echo " /  / /\\ \\    \\ \\  \\ \\       /`-----"
+echo "   / /  \\ \\  | |\\ \\  \\7--- ooo ooo ooo ooo ooo ooo"
+echo "       wWWWw               wWWWw"
+echo " vVVVv (___) wWWWw         (___)  vVVVv"
+echo " (___)  ~Y~  (___)  vVVVv   ~Y~   (___)"
+echo "  ~Y~   \|    ~Y~   (___)    |/    ~Y~"
+echo "  \|   \ |/   \| /  \~Y~/   \|    \ |/"
+echo " \\|// \\|// \\|/// \\|//  \\|// \\\|///"
+=======
 # added by jaisannotjaxsxn
 squirtle_art() {
     echo "             _,........__"
@@ -49,6 +67,7 @@ squirtle_art() {
     echo "               ,'           )     \`.         |"
     echo "                7____,,..--'      /          |"
     echo "                                  \`---.__,--.'"
+
 }
 
 # Joey Luu's Submission :D
@@ -90,6 +109,7 @@ cat_art() {
     echo "  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |"
     echo "  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |"
     echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
+
 }
 
 # Chris Zhu's Submission
@@ -125,21 +145,38 @@ echo "ASCII Art: $artName"
 if [ "$artName" == "clover" ]
 then
     clover_art
+
+    
+
 elif [ "$artName" == "squiggle" ]
 then
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+
+
+
+
 elif [ "$artName" == "squirtle" ]   #added by jaisannotjaxsxn
 then
     squirtle_art
+
 elif [ "$artName" == "show" ]
 then
     welcome_to_the_show
 elif [ "$artName" == "cat" ]
 then
     cat_art
+
+    
+    elif [ "$artName" == "aardvark" ]
+    then
+    aardvark_art
+    
+
 elif [ "$artName" == "mycat" ]
 then
     my_cat_art
+
 else
     echo "FAILURE: No such art name."
     echo "Valid art names:"
@@ -148,6 +185,12 @@ else
     echo "    * squirtle"
     echo "    * show"
     echo "    * cat"
+
+    echo "    *aardvark"
+
     echo "    * mycat"
+
     exit 1
 fi
+
+
