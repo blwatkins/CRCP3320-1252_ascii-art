@@ -14,23 +14,21 @@ clover_art() {
     echo "jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
 }
 
-
-
 # added by Allison Hart
 aardvark_art() {
-    
-echo "       _.---._    /\\"
-echo "     /'       \"--`\\//"
-echo "   /              o \\          -----"
-echo " / /\\  )______    \\__ \\        ( help! )"
-echo " /  / /\\ \\    \\ \\  \\ \\       /`-----"
-echo "   / /  \\ \\  | |\\ \\  \\7--- ooo ooo ooo ooo ooo ooo"
-echo "       wWWWw               wWWWw"
-echo " vVVVv (___) wWWWw         (___)  vVVVv"
-echo " (___)  ~Y~  (___)  vVVVv   ~Y~   (___)"
-echo "  ~Y~   \|    ~Y~   (___)    |/    ~Y~"
-echo "  \|   \ |/   \| /  \~Y~/   \|    \ |/"
-echo " \\|// \\|// \\|/// \\|//  \\|// \\\|///"
+    echo "       _.---._    /\\"
+    echo "     /'       \"--`\\//"
+    echo "   /              o \\          -----"
+    echo " / /\\  )______    \\__ \\        ( help! )"
+    echo " /  / /\\ \\    \\ \\  \\ \\       /`-----"
+    echo "   / /  \\ \\  | |\\ \\  \\7--- ooo ooo ooo ooo ooo ooo"
+    echo "       wWWWw               wWWWw"
+    echo " vVVVv (___) wWWWw         (___)  vVVVv"
+    echo " (___)  ~Y~  (___)  vVVVv   ~Y~   (___)"
+    echo "  ~Y~   \|    ~Y~   (___)    |/    ~Y~"
+    echo "  \|   \ |/   \| /  \~Y~/   \|    \ |/"
+    echo " \\|// \\|// \\|/// \\|//  \\|// \\\|///"
+}
 
 # added by jaisannotjaxsxn
 squirtle_art() {
@@ -67,7 +65,6 @@ squirtle_art() {
     echo "               ,'           )     \`.         |"
     echo "                7____,,..--'      /          |"
     echo "                                  \`---.__,--.'"
-
 }
 
 # Joey Luu's Submission :D
@@ -109,7 +106,6 @@ cat_art() {
     echo "  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |"
     echo "  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |"
     echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
-
 }
 
 # Chris Zhu's Submission
